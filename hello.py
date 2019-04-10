@@ -1,6 +1,17 @@
 # hello.py
 
-def main():
-    print("Hello")
+def hello():
+    print(" ___________")
+    print("|\_________/|")
+    print("| _________ |")
+    print("|/_________\|")
+    print("     | |      ")
+    print("     | |      ")
+    print("     | |      ")
+    print("     | |      ")
+    print("     | |      ")
+    print("     | |      ")
+    print("     | |      ")
+    print("     |_|      ")
 
-main()    
+hello()
