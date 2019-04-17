@@ -6,19 +6,20 @@ def main():
     print()
 
     print("This program calculates the volume of a sphere.")
-    pi = 3.14159265359
 
+    import math
     radius1 = eval(input("Enter the radius: "))
-    volume = 4/3 * pi * radius1 * radius1 * radius1
+    volume = 4/3 * math.pi * radius1 * radius1 * radius1
 
     print("The volume of your sphere is:", volume)
-
+    
     print()
 # number two
     print("This program calculates the area of a circle.")
 
+    import math
     radius2 = eval(input("Enter the radius: "))
-    area1 = 4 * pi * radius2 * radius2
+    area1 = 4 * math.pi * radius2 * radius2
 
     print("The area of your circle is:", area1)
 
@@ -45,7 +46,8 @@ def main():
     print("This program calculates the area of a triangle.")
 
     a1, b1, c1 = eval(input("Enter the lengths of the sides of your triangle seperated by commas: "))
-    area2 = (s * (s - a) * (s - b) * (s - c))** 0.5
+    import math
+    area2 = math.sqrt(s * (s - a) * (s - b) * (s - c))
 
     print("The area of your triangle is:", area2)
 
